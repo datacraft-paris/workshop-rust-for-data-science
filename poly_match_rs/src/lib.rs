@@ -1,8 +1,13 @@
+mod EASY;
+mod HARD;
+mod CORRECTION;
+mod INTERMEDIATE;
+mod lib_v0;
+
 use crate::CORRECTION::{lib_v1, lib_v2, lib_v3, lib_v4};
 use crate::EASY::{lib_v1EASY, lib_v2EASY, lib_v3EASY, lib_v4EASY};
 use crate::HARD::{lib_v1HARD, lib_v2HARD, lib_v3HARD, lib_v4HARD};
 use crate::INTERMEDIATE::{lib_v1INTERMEDIATE, lib_v2INTERMEDIATE, lib_v3INTERMEDIATE, lib_v4INTERMEDIATE};
-
 
 
 use pyo3::prelude::*;
