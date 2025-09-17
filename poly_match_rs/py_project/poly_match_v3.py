@@ -2,6 +2,12 @@ from typing import List, Tuple
 import numpy as np
 import poly_match_rs
 
+#if level=EASY:
+#poly_match_rs = poly_match_rs.v1EASY
+#if level=HARD:
+#poly_match_rs = poly_match_rs.v1HARD
+#if level=INTERMEDIATE:
+#poly_match_rs = poly_match_rs.v1INTERMEDIATE
 poly_match_rs = poly_match_rs.v3
 
 Point = np.array
