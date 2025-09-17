@@ -4,12 +4,9 @@ import numpy as np
 from dataclasses import dataclass
 import poly_match_rs
 
-#if level=EASY:
-#poly_match_rs = poly_match_rs.v1EASY
-#if level=HARD:
-#poly_match_rs = poly_match_rs.v1HARD
-#if level=INTERMEDIATE:
-#poly_match_rs = poly_match_rs.v1INTERMEDIATE
+#if level=EASY: poly_match_rs = poly_match_rs.v1EASY
+#if level=HARD: poly_match_rs = poly_match_rs.v1HARD
+#if level=INTERMEDIATE: poly_match_rs = poly_match_rs.v1INTERMEDIATE
 poly_match_rs = poly_match_rs.v1
 
 Point = np.array

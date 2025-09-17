@@ -44,7 +44,7 @@ This workshop provides a guided introduction to Rust, Cargo, and PyO3. It conclu
   - Rust scratch (exposed to Python via PyO3)
 
 
-To check the **Applications** correction, you must go to the `Correction` branch with :
+In this workshop, there are 3 levels of difficulty: easy, intermediate and hard. To check the **Exercise** correction, you must go to the `Correction` branch with :
 ```bash
 git checkout Corection
 ```
@@ -53,6 +53,9 @@ git checkout Corection
 
 Here is the documentation used for the completion of the workshop:
 
+- [**Basics of Rust**](./docs/rust.md)
+- [**Basics of Cargo**](./docs/cargo.md)
+- [**How to use PyO3**](./docs/pyo3.md)
 - Complete guide for Rust: [The Book](https://doc.rust-lang.org/book/)
 
 - [Rust tutorial (W3Schools)](https://www.w3schools.com/rust/rust_intro.php)
@@ -128,4 +131,4 @@ Here are the links to the `.ipynb` notebook files for the three difficulty level
 
 ## Correction
 
-Here is the link for the [Correction](Correction.ipynb).
+Here is the link for the [Correction](Correction.ipynb) notebook. The correction for the Rust part is [here](/poly_match_rs/src/CORRECTION/)
