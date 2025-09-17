@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="datacraft_logo.svg" alt="Logo" width="337"/>
+  <img src="assets/datacraft_logo.svg" alt="Logo" width="337"/>
 </p>
 
 # Rust for data science - 2025/09/23
@@ -8,10 +8,12 @@ This repository is designed to help you learn Rust from the ground up, with a fo
 
 ## Table of Contents
 
-1. [**Basics of Rust**](./docs/rust.md)
-2. [**Basics of Cargo**](./docs/cargo.md)
-3. [**How to use PyO3**](./docs/pyo3.md)
-4. [**Applications and tests**](./docs/applications.md)
+1. [**Learning objectives**](#learning-objectives)
+2. [**Workshop structure**](#workshop-structure)
+3. [**References and materials**](#references-and-materials)
+4. [**Setup**](#setup)
+5. [**Exercices**](#exercices)
+6. [**Correction**](#correction)
 
 ## Learning objectives 
 
@@ -30,7 +32,7 @@ After completing this workshop, you will be able to:
 6. Apply Rust to accelerate data science and machine learning workflows
 
 
-## Workshop 
+## Workshop structure
 
 This workshop provides a guided introduction to Rust, Cargo, and PyO3. It concludes with two hands-on exercises designed to put your knowledge into practice and deepen your understanding through real applications:
 
@@ -46,6 +48,20 @@ To check the **Applications** correction, you must go to the `Correction` branch
 ```bash
 git checkout Corection
 ```
+
+## References and materials 
+
+Here is the documentation used for the completion of the workshop:
+
+- Complete guide for Rust: [The Book](https://doc.rust-lang.org/book/)
+
+- [Rust tutorial (W3Schools)](https://www.w3schools.com/rust/rust_intro.php)
+
+- [The Cargo Book (Rust official page)](https://doc.rust-lang.org/cargo/index.html)
+- [PyO3 user guide (PyO3 official page)](https://pyo3.rs/main/function.html)
+- Guide for [py-spy](https://github.com/benfred/py-spy)
+
+
   ## Setup
 
   Choose your preferred environment to complete this workshop:
@@ -99,18 +115,17 @@ For a zero-installation experience directly in your browser:
 > **Important**: Each Codespace is tied to the branch you selected when creating it. To switch branches, go back to GitHub, select the new branch, and click on the + icon in the top right corner to create a new Codespace for that branch then repeat step 4.
 
 <p align="center">
-  <img src="codespace_screen.png" alt="illustration"/>
+  <img src="assets/codespace_screen.png" alt="illustration"/>
 </p>
 
+## Exercices
 
-## References and materials 
+Here are the links to the `.ipynb` notebook files for the three difficulty levels:
+- [Easy](/poly_match_rs/py_project/Exercice/exercice_EASY.ipynb)
+- [Intermediate](/poly_match_rs/py_project/Exercice/exercice_INTERMEDIATE.ipynb)
+- [Hard](/poly_match_rs/py_project/Exercice/exercice_HARD.ipynb)
 
-Here is the documentation used for the completion of the workshop:
 
-- Complete guide for Rust: [The Book](https://doc.rust-lang.org/book/)
+## Correction
 
-- [Rust tutorial (W3Schools)](https://www.w3schools.com/rust/rust_intro.php)
-
-- [The Cargo Book (Rust official page)](https://doc.rust-lang.org/cargo/index.html)
-- [PyO3 user guide (PyO3 official page)](https://pyo3.rs/main/function.html)
-- Guide for [py-spy](https://github.com/benfred/py-spy)
+Here is the link for the [Correction](Correction.ipynb).
